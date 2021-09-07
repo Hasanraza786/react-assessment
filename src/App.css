@@ -1,27 +1,67 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.main-div {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  border-color: whitesmoke;
+  border-style: solid;
+  border-width: 5px;
+  padding: 12px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.top-div {
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 50px;
+}
+.ques-number-text {
+  font-size: 25px;
+  color: gray;
+  font-weight: 600;
+  margin: 0;
+}
+.category-text {
+  margin: 0;
+  margin-top: 2px;
+}
+.ques-div{
+  margin-top: 30px;
+  height: 60px;
+}
+.ques-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.ans-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-text-div {
+  text-align: center;
+  height: 20px;
+  margin-top: 10px;
+}
+.btn-div {
+  text-align: center;
+  margin-top: 20px;
+}
+.btn {
+  padding: 12px;
+  text-align: center;
+}
+.score-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
+
+
 
 @keyframes App-logo-spin {
   from {
